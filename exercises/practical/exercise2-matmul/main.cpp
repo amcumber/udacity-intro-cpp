@@ -4,3 +4,9 @@
  * multiplied together; if matrix one is m by n and matrix two is w by z, then n
  * must equal w. And the resulting matrix will be m by z.
  */
+#include <vector>
+#include "funcs.h"
+
+int main() {
+    return 0;
+}
