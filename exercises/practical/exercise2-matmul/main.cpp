@@ -25,14 +25,12 @@ int main()
     vector<int> vec2 = {4, 5, 6};
     vector<vector<int>> result(2, vector<int>(4));
 
-    cout << "test" << endl;
-    print_mat(mat1);
-    print_mat(mat2);
-
-    // result = matmul(mat1, mat2);
-    // print_mat(result);
-    int vec_result = dot(vec1, vec2);
-    cout << vec_result << endl;
+    result = matmul(mat1, mat2);
+    print_mat(result);
+    /* Expected:
+        38 32 26 20
+       101 86 71 56
+    */
 
     return 0;
 }
