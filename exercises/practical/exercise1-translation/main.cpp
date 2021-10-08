@@ -8,6 +8,7 @@ vector<double> sense(vector<double> p, string Z);
 vector<double> move(vector<double> p, int U);
 
 int main() {
+    //FIXME bug in first two elements
     vector<double> p(5, 0.2);
     vector<string> measurements {"red", "green"};
     vector<int> motions(2, 1);
